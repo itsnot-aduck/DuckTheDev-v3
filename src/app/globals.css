@@ -67,3 +67,32 @@
     @apply bg-background text-foreground;
   }
 }
+
+.duck-h1 {
+  @apply text-6xl xl:text-[72px] xl:leading-[80px] tracking-[-2px] font-bold;
+}
+
+.duck-subtitle {
+  @apply text-muted-foreground text-lg mb-8 font-light;
+}
+
+.custom-shape-divider-top-1723993857 {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1723993857 svg {
+  /* position: relative; */
+  display: block;
+  width: calc(168% + 1.3px);
+  height: 64px;
+}
+
+.custom-shape-divider-top-1723993857 .shape-fill {
+  fill: #283655;
+}
