@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "./Logo";
 import Nav from "./Nav";
 import Search from "./Search";
-import MobileNav from "./MobileNav";
+import NavDropdown from "./NavDropdown";
 
 function Header() {
   return (
@@ -11,8 +11,8 @@ function Header() {
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-x-6">
             <Logo />
-            <div className="md:hidden">
-              <MobileNav />
+            <div className="md:hidden gap-10">
+              <NavDropdown />
             </div>
           </div>
           <div>
